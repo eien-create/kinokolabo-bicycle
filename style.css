@@ -7,6 +7,39 @@ body {
     display: flex;
 }
 
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+img {
+    width: 100%;
+}
+
+.icon-round {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
 
 .header {
     width: 960px;
@@ -26,14 +59,9 @@ body {
 
 .header nav ul li {
     padding-left: 3rem;
-    list-style: none;
 }
 
 .main-visual {
-    width: 100%;
-}
-
-.main-visual img {
     width: 100%;
 }
 
@@ -51,3 +79,18 @@ body {
     padding-bottom: 0.3em;
     border-bottom: solid 2px #393E46;
 }
+
+section {
+    text-align: center;
+}
+
+#bicycle .content ul li {
+    width: 30%;
+}
+
+#about .icon-round {
+    margin-right: 2rem;
+}
+
+
+
