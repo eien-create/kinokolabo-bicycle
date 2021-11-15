@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Photo book</title>
+</head>
+<body>
+    <section>
+        <h1 class="site-title">
+            <a href="index.html">
+                <img class="title-img" src="img/logo.svg" alt="">
+            </a>
+        </h1>
+        <img src="img/mainvisual.jpg" alt="">
+
+        <div class="index-container">
+            <div class="index">
+                <h2 class="index-title">
+                    INDEX
+                </h2>
+                <ul>
+                    <li>1.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                    <li>2.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                    <li>3.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                    <li>4.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                    <li>5.タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="detail">
+            <h2 class="detail-title">
+                DETAIL
+            </h2>
+            <div class="flex">
+                <img src="img/detail.jpg" alt="">
+                <div class="text">
+                    <p class="title">タイトルタイトルタイトル</p>
+                    <dl>
+                        <dt>著者</dt>
+                        <dd>タイトルタイトルタイトル</dd>
+                        <dt>出版社</dt>
+                        <dd>タイトルタイトルタイトル</dd>
+                        <dt>発行年</dt>
+                        <dd>タイトルタイトルタイトル</dd>
+                    </dl>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    <a href="#" class="link" target="_blank" rel="noopener noreferrer">オンラインストアで見る</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="copyright">&copy; 2020 PHOTO BOOK</p>
+        </footer>
+
+    </section>
+    
+</body>
+</html>
